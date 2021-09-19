@@ -1,0 +1,46 @@
+body {
+  background-color: #b5f5db;
+}
+
+.containerReg{
+  width: 200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+input[type=text], input[type=password] {
+  margin-bottom: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  border: 1.5px solid #067548;
+  border-radius: 4px;
+}
+
+input[type=tetx]:focus, input[type=password]:focus {
+  background-color: #white;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+label {
+  font-family: Arial;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+  background-color: #067548;
+  padding: 10px 10px;
+  color: white;
+  margin-left: 25%;
+  border: none;
+  width: 50%;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #05633d;
+}

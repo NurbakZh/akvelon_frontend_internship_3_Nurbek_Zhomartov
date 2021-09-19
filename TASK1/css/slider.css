@@ -1,0 +1,51 @@
+/*cats photos retrieved from https://unsplash.com/s/photos/cute-cat*/
+
+body {
+  background-color: #b5f5db;
+}
+
+.containerSlider {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.Slider {
+  display: none;
+}
+
+.Slider img {
+  width: 100%;
+  border: 8px solid #7ee0b8;
+}
+
+.left_arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  padding: 10px;
+  font-size: 80px;
+  font-weight: bold;
+  background-color: #7ee0b8;
+  color: #f0fcf7;
+
+}
+.right_arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  right: -16px;
+  padding: 10px;
+  font-size: 80px;
+  font-weight: bold;
+  background-color: #7ee0b8;
+  color: #f0fcf7;
+}
+
+.right_arrow:hover {
+  background-color: #067548;
+}
+
+.left_arrow:hover {
+  background-color: #067548;
+}
