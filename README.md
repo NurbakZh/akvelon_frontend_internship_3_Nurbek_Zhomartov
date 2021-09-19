@@ -1,5 +1,5 @@
 # akvelon_frontend_internship_3_Nurbek_Zhomartov
-Here is the task done by me for Akvelon dunior front-end position 
+Here is the task done by me for Akvelon junior front-end position 
 
 Here are the links, used while completion of this task:
 
