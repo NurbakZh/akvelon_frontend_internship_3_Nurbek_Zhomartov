@@ -7,3 +7,6 @@ https://www.w3schools.com/howto/howto_js_slideshow.asp
 https://www.w3schools.com/howto/howto_css_register_form.asp
 https://stackoverflow.com/questions/12681945/reversing-bits-of-python-integer
 
+
+
+
