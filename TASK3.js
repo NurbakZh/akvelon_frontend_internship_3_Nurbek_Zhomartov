@@ -1,5 +1,5 @@
 //Task 1
-function reverseBits(a){ 
+function reverseBits(a){
 	let b = (a >>> 0).toString(2);
 	b = b.split("");
 	b = b.reverse();
@@ -17,7 +17,7 @@ function factorial(a){
 
 //Task 3
 function getUniqueWords(a) {
-	return a.split(" ");
+	return new Set(a.split(" "));
 }
 
 console.log(reverseBits(417));
@@ -25,7 +25,8 @@ console.log(reverseBits(267));
 console.log(reverseBits(0));
 console.log(reverseBits(2017));
 console.log(reverseBits(1023));
-console.log(reverseBits(1024),"\n");
+console.log(reverseBits(1024));
+console.log(reverseBits(Number.MAX_SAFE_INTEGER),"\n");
 
 console.log(factorial(0));
 console.log(factorial(1));
